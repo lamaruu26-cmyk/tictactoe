@@ -9,12 +9,10 @@ public class TicTacToe {
         final char Empty = '-';
 
         char[][] borad = new char[3][3];
-        int[][] filld = {
-                {1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9}
-        };
+
         initialiseBoard(borad, Size, Empty);
+
+
     }
 
     static void initialiseBoard(char[][] borad, int Size, char Empty) {
@@ -24,5 +22,13 @@ public class TicTacToe {
             }
         }
     }
+    static void displayBoard(){
+        for (int r = 0; r < 3; r++){
+            for (int col = 0; col < 3; col++){
+
+            }
+        }
+    }
+
 }
 
